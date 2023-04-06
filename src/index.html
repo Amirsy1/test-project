@@ -5,5 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-slate-300"></body>
+  <body class="bg-slate-50 h-screen overflow-y-hidden">
+    <header class="bg-white shadow-lg w-full">
+      <div class="flex mx-auto py-3 justify-between items-start w-[30%]">
+        <div>
+          <a class="text-blue-400 font-semibold text-lg">color flipper</a>
+        </div>
+        <div>
+          <a class="text-black font-semibold text-lg mr-2">simple</a>
+          <a class="text-black font-semibold text-lg">Hex</a>
+        </div>
+      </div>
+    </header>
+    <section class="flex justify-center items-center h-full">
+      <div>
+        <div
+          class="bg-black font-semibold -mt-16 mb-7 text-white p-3 rounded-md"
+        >
+          <h1 class="text-5xl">
+            background color : <span class="text-blue-500">#f1f5f8</span>
+          </h1>
+        </div>
+        <div class="text-center">
+          <button
+            class="uppercase py-1.5 px-4 font-semibold hover:bg-black hover:text-white rounded-md transition duration-300 text-[17px] border-black border-2"
+          >
+            click me
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
